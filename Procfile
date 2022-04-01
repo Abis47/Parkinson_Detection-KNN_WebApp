@@ -1,1 +1,1 @@
-web: gunicorn app_xgb:app
+web: gunicorn app_knn:app
