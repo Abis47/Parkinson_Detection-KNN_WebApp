@@ -6,20 +6,20 @@
 .login{
 	background-image: linear-gradient(to right, #FCF876, #28FFBF);
 
-text-align: center;
-padding: 3rem 0;
+    text-align: center;
+    padding: 2rem 0;
 }
 .login input {
 	display: inline-block;
+    font-family: cursive;
 	margin: 1rem 1rem;
 }
 .heading-h1{
 	display: inline-block;
-  	margin: 2rem;
+  	margin: 0.5rem;
 	background-image: linear-gradient(
-	to right, #28FFBF , #FCF876
-);
-padding: .2rem 1rem;
+	to right, #28FFBF , #FCF876);
+    padding: .2rem 1rem;
 }
 h1{
 	background-image: linear-gradient(to right, #511281, #4D4646);
@@ -64,4 +64,20 @@ transition: all .2s;
 button:hover{
 	transform: translateY(-0.3px);
   box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    font-size: 25px;
+    padding: 5rem;
+    text-align: left;
+    word-spacing: 3px;
+    font-family: cursive;
+}
+
+.result{
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+    background-image: linear-gradient(to right, #511281, #4D4646);
+	-webkit-background-clip: text;
+	color: transparent;
 }
