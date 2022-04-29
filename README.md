@@ -4,3 +4,5 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 I used pandas, numpy, seaborn, matplotlib, xgboost, scipy, and sklearn libraries to do Exploratory Data Analysis (EDA), Data Visualzation, Data Cleaning/Filtering, and Building Models
 
 I made Logistic Regression Model, Decision Tree Model, Random Forest Classifier Model, Bagging Model, Boosting Model, XGBoost Model, SVM (Support Vector Machine) Model, and KNN (k-Nearest Neighbors) Model. Among this KNN Model shows highest accuracy i.e. 92% with AUC score of 0.98.
+
+Webapp link: https://parkinson-detector-knn.herokuapp.com/
