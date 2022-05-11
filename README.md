@@ -7,6 +7,6 @@
 
 - Report: I also made a report on this project which contains all information related to Parkinson's Disease and the details of all algorithms, libraries, and models which I used.
 
-- **Webapp link**: https://parkinson-detector-knn.herokuapp.com/
+- **WebApp link**: https://parkinson-detector-knn.herokuapp.com/
 - **Report Link**: https://drive.google.com/file/d/1kV3tpKN9Tvym6khtmexqmV-klmiS5HLx/view?usp=sharing
 - **Dataset Download Link**: https://archive.ics.uci.edu/ml/datasets/parkinsons
