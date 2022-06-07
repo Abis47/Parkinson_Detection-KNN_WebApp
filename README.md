@@ -3,10 +3,10 @@
 
 - I used *pandas, numpy, seaborn, matplotlib, xgboost, scipy, and sklearn libraries* to do *Exploratory Data Analysis (EDA), Data Visualzation, Data Cleaning/Filtering, and Building Models*
 
-- I made *Logistic Regression Model, Decision Tree Model, Random Forest Classifier Model, Bagging Model, Boosting Model, XGBoost Model, SVM (Support Vector Machine) Model, and KNN (k-Nearest Neighbors) Model*. Among this *KNN Model shows highest accuracy i.e. 92% with AUC score of 0.98.*
+- I made *Logistic Regression Model, Decision Tree Model, Random Forest Classifier Model, Bagging Model, Boosting Model, XGBoost Model, SVM (Support Vector Machine) Model, and KNN (k-Nearest Neighbors) Model*.
 
-- Report: I also made a report on this project which contains all information related to Parkinson's Disease and the details of all algorithms, libraries, and models which I used.
 
-- **WebApp link**: https://parkinson-detector-knn.herokuapp.com/
+- **WebApp link of SVM Model Deployment on same project**: https://parkinson-detector-svm.herokuapp.com/
+- **SVM Model Codes**: https://github.com/Abis47/Parkinson_Detection-SVM_WebApp
 - **Report Link**: https://drive.google.com/file/d/1kV3tpKN9Tvym6khtmexqmV-klmiS5HLx/view?usp=sharing
 - **Dataset Download Link**: https://archive.ics.uci.edu/ml/datasets/parkinsons
