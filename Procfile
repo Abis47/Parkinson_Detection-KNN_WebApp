@@ -1,1 +1,1 @@
-web: gunicorn app_svm:app
+web: gunicorn app_knn:app
