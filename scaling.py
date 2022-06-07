@@ -1,14 +1,25 @@
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv("data.csv")
 
 # # Seperating target column
-X = df.drop(["name", "status"], axis=1)
+X = df.drop(['PPE',
+ 'Shimmer:APQ5',
+ 'MDVP:PPQ',
+ 'Shimmer:DDA',
+ 'MDVP:Shimmer(dB)',
+ 'MDVP:APQ',
+ 'MDVP:RAP',
+ 'HNR',
+ 'MDVP:Jitter(Abs)',
+ 'Jitter:DDP',
+ 'Shimmer:APQ3',
+ 'name', 'status'], axis=1)
 y = df["status"]
 
 # # Data Normalization
-scaler = MinMaxScaler()
+scaler = StandardScaler()
 scaler = scaler.fit(X)
 
 import pickle
